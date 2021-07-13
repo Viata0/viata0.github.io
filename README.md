@@ -1,148 +1,140 @@
-# Krypton Landing page
-![](https://cssninja.io/storage/app/media/external/krypton/krypton-preview.png)
+# Free React landing page template
 
-Krypton is a one page landing page starter built by [Css Ninja Studio](https://cssninja.io). Krypton is licensed under the MIT license.
+![Open React template preview](https://user-images.githubusercontent.com/2683512/78789364-545e7100-79ad-11ea-9e3c-9528c99cda8e.png)
 
-You can access the demo [here](https://cssninjastudio.github.io/Krypton/).
+**Open** is a **free React landing page template designed** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
 
-## Details
+Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
 
-Krypton is developed with the [Bulma css framework](https://bulma.io)
+Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
 
-**Version 3.0.0**
+## Live demo
+
+Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
+
+## Open PRO
+
+Looking for more pages and components? Have a look at the **premium version** here 👉️ [https://cruip.com/demos/open-pro/](https://cruip.com/demos/open-pro/)
+
+*The premium template is built on-the-top of [Tailwind CSS](https://tailwindcss.com/), and React components have been re-built from scratch.* 
+
+## Table of contents
+
+* [Usage](#usage)
+  * [Available Scripts](#available-scripts)
+    * [npm start](#npm-start)
+    * [npm test](#npm-test)
+    * [npm run build](#npm-run-build)
+    * [npm run eject](#npm-run-eject)
+  * [Learn More](#learn-more)
+    * [Code Splitting](#code-splitting)
+    * [Analyzing the Bundle Size](#analyzing-the-bundle-size)
+    * [Making a Progressive Web App](#making-a-progressive-web-app)
+    * [Advanced Configuration](#advanced-configuration)
+    * [Deployment](#deployment)
+    * [npm run build fails to minify](#npm-run-build-fails-to-minify)
+  * [Google Analytics Setup](#google-analytics-setup)
+* [Credits](#credits)
+* [Terms and License](#terms-and-license)
+* [About Us](#about-us)
+* [Stay in the loop](#stay-in-the-loop)
 
 ## Usage
-Krypton is now a Bulma starter fully bundled with **npm** and **gulp**. Bulma has been upgraded to the latest version **0.8.0**.
 
-* Clone or download the repo
-* Run `npm install`
-* Run `gulp dev`
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Most of the dependencies have been sanitized. However, **Panini** will keep throwing 2 npm warnings (low and moderatem, since Panini is only used during development, that shouldn't be a problem). We already got in touch with Zurb / Foundation to have this problem solved.
+### Available Scripts
 
-## Changelog
+In the project directory, you can run:
 
-**Krypton 3.0**
-* Upgraded to gulp 4 and nodejs 10.15.3
-* Upgraded Bulma to 0.8.0
-* Cleaned code and redesigned some of the features
+#### `npm install`
+To install the dependencies package.
 
-**Krypton 2.1**
-* Improved page responsiveness particularly on tablet for both orientations, and mobile
-* Fixed small layout issues
-* Added a modal login form
+#### `npm start`
 
-**Krypton 2.0**
-* Everything is now handled by gulp and npm
-* Bulma version upgraded to 0.7
-* Bulma source sass is editable (note that the `@widescreen` variable has been set to false)
-* Panel slider library has been removed. Sidebar completely rewritten without any plugin.
-* Removed unused classes and refactored scss
-* Added more scss partials for better code maintainability
-* Introduced Panini templating engine. Learn more about Panini here: https://github.com/zurb/panini
-* Fully automated build and watch process, integration with browser sync
-* Navbar rework since deprecation of `.nav` element in favor of `.navbar`.
-* Optimized responsive display for mobile and tablets.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Issues
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-If you've found an issue or a bug, you can report it in the issues section of this repository. Please try to follow these simple guidelines to report your issue:
+#### `npm test`
 
-* Issue definition
-* Expected behaviour
-* Actual behaviour
-* steps to reproduce
-* Already tried fixes (if relevant)
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## More
+#### `npm run build`
 
-You liked Krypton? Find more premium bulma templates on [Css Ninja](https://cssninja.io/category/all).
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Check also our premium Envato bulma themes [Css Ninja](https://cssninja.io/themes).
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+#### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+### Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+#### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+#### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+#### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+#### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+#### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+#### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Google Analytics Setup
+
+This template uses the [React Google Analytics Module](https://github.com/react-ga/react-ga).
+
+In order to track visitors, you need to set an [environment variable](https://create-react-app.dev/docs/adding-custom-environment-variables/) called `REACT_APP_GA_CODE` storing your [GA Tracking ID](https://support.google.com/analytics/answer/7372977).
+
+## Credits
+
+- [Nucleo](https://nucleoapp.com/)
+- [Unsplash](https://unsplash.com/)
+
+## Terms and License
+
+- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
+- Copyright 2020 [Cruip](https://cruip.com/).
+- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
+- Attribution is not required, although it is really appreciated.
 
 ## About Us
 
-Css Ninja is a web design studio. We build handcrafted and polished templates that will give some hype to your startup or to your next project.
+We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
 
-### Note
+## Stay in the loop
 
-Changes should be commited to `src/` files only.
-
-### How to use
-
-The template is built with Sass and Gulp build system with these features:
-
--	Handlebars HTML templates with Panini– Panini is a super simple flat file generator for use with Gulp. It compiles a series of HTML pages using a common layout. These pages can also include HTML partials, external Handlebars helpers, or external data as JSON.
--	Sass compilation, prefixing with Autoprefixer, and JavaScript concatenation
--	Built-in BrowserSync server - Will automatically reload your page when files are changed. It also live-injects CSS changes when you save a Sass file. This task runs continuously. Defaults to localhost.
--	For production builds - CSS compression, JavaScript compression, Image compression and more..
-
-
-### Requirements
-
-To use this template, your computer needs:
-
--	Node.js is used to run the build processes. https://nodejs.org/en/download/
--   Test: run ` node -v ` in the terminal
--	Npm (Node comes with npm installed so you should have a version of npm.) Used to manage development dependencies.
--   Test: run ` npm -v`  in the terminal
--	Gulp – task runner
-	`npm install -g gulp`
--	Test: run `gulp -v ` in the terminal
-
-### Installing:
-
-- Install all node packages: `npm install`
-- Run `gulp dev`
-- Your site is now viewable at this URL: http://localhost:3000
-
-
-### Folder Structure:
-
-- `dist/` - compiled distribution files
-- `node_modules` - front-end dependencies
-- `src/` - contains all of your core, working files—static assets, pages, templates, etc
-- `src/assets/` - scss files, JS files, images, and fonts are here
-- `src/data/` - external data
-- `src/layouts/` - HTML layouts templates
-- `src/pages/` - site pages
-- `src/partials/` - handlebars partials files.
-- `gulpfile.js` - all task definitions
-- `package.json` - handles the front-end dependencies
-- `.htmllintrc` - handles the HTML lint rules
-- `.sass-lint.yml` - handles the SCSS lint rules
-- `reports` - txt generated file for accessibility issues
-
-### Gulp Plugins:
-- [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
-- [gulp-compile-handlebars](https://www.npmjs.com/package/gulp-compile-handlebars)
-- [gulp-concat](https://www.npmjs.com/package/gulp-concat)
-- [gulp-html-replace](https://www.npmjs.com/package/gulp-html-replace)
-- [gulp-htmllint](https://www.npmjs.com/package/gulp-htmllint)
-- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
-- [gulp-pretty-html](https://www.npmjs.com/package/gulp-pretty-html)
-- [gulp-remove-code](https://www.npmjs.com/package/gulp-remove-code)
-- [gulp-remove-logging](https://www.npmjs.com/package/gulp-remove-logging)
-- [gulp-rename](https://www.npmjs.com/package/gulp-rename)
-- [gulp-sass](https://www.npmjs.com/package/gulp-sass)
-- [node-bourbon](https://www.npmjs.com/package/node-bourbon)
-- [gulp-sass-lint](https://www.npmjs.com/package/gulp-sass-lint)
-- [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps)
-- [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
-- [gulp-newer](https://www.npmjs.com/package/gulp-newer)
-- [gulp-accessibility](https://www.npmjs.com/package/gulp-accessibility)
-- [gulp-jshint](https://www.npmjs.com/package/gulp-jshint)
-- [gulp-gulp-gh-pages](https://www.npmjs.com/package/gulp-gh-pages)
-- [gulp-babel](https://www.npmjs.com/package/gulp-babel)
-- [panini](https://www.npmjs.com/package/panini)
-- [run-sequence](https://www.npmjs.com/package/run-sequence)
-- [ansi-colors](https://www.npmjs.com/package/ansi-colors)
-- [fancy-log](https://www.npmjs.com/package/fancy)
-
-
-### Additional Resources:
-- [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
-- [Bulma](https://bulma.io/)
-- [Handlebars](http://handlebarsjs.com/)
-- [Panini](https://github.com/zurb/panini)
-- [Gulp](https://gulpjs.org/getting-started)
+If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
