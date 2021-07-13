@@ -1,0 +1,44 @@
+Environment:
+  react jdk
+  node.js sdk
+  gulp
+  npm
+  
+  steps:
+    1. open the IDE you used
+    2. go to extensions
+    3. install the following extensions:
+      -React Native Tools
+      -ES7 React/Redux/GraphQL/React-Native snippets
+      -React/Redux/react-router Snippets
+      -GULP
+      -Gulp Snippets
+      -Gulp Tasks
+      -Jupyter
+
+	install gulp:
+		steps:
+			1.	type the following commands in command line/terminal
+				1.1	npm install gulp-cli -g
+				1.2	npm install gulp -D
+				1.3 gulp -v			// if intsall successfully, the CLI and Local version can be displayed well
+			2. add the path in env var
+				2.1	add "C:\Program Files\nodejs\node_global" and "C:\Program Files\nodejs\;%AppData%\npm" to "Path" in system env var
+				2.2 create a new system env with the var name("NODE_PATH") and path("%AppData%\npm\node_modules")
+
+
+Execution:
+	open the project file with IDE
+		typr the following commands in terminal:
+			1.	npm install
+			2.	npm audit fix
+			3.	Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+			4.	gulp dev
+
+
+
+      
+
+      
+
+  
