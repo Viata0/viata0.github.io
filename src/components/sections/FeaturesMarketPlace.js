@@ -11,7 +11,7 @@ const defaultProps = {
   ...SectionTilesProps.defaults
 }
 
-const Testimonial = ({
+const FeaturesMarketPlace = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -38,14 +38,14 @@ const Testimonial = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const tilesClasses = classNames(
+  const FeaturesMarketPlace = classNames(
     'tiles-wrap',
     pushLeft && 'push-left'
   );
 
   const sectionHeader = {
-    title: 'Target Users',
-    paragraph: 'There are some descriptions about target users.'
+    title: 'Market Place',
+    paragraph: 'Here are the market places.'
   };
 
   return (
@@ -56,7 +56,7 @@ const Testimonial = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={tilesClasses}>
+          <div className={FeaturesMarketPlace}>
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
@@ -116,7 +116,7 @@ const Testimonial = ({
   );
 }
 
-Testimonial.propTypes = propTypes;
-Testimonial.defaultProps = defaultProps;
+FeaturesMarketPlace.propTypes = propTypes;
+FeaturesMarketPlace.defaultProps = defaultProps;
 
-export default Testimonial;
+export default FeaturesMarketPlace;

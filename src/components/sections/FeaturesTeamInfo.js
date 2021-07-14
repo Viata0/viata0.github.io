@@ -11,7 +11,7 @@ const propTypes = {
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
-const FeaturesTiles = ({
+const FeaturesTeamInfo = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -38,14 +38,14 @@ const FeaturesTiles = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const tilesClasses = classNames(
+  const FeaturesTeamInfo = classNames(
     'tiles-wrap center-content',
     pushLeft && 'push-left'
   );
 
   const sectionHeader = {
-    title: 'The Community',
-    paragraph: 'The Community we would like to build is ...'
+    title: 'Our Team',
+    paragraph: 'Why we connect...'
   };
 
   return (
@@ -56,7 +56,7 @@ const FeaturesTiles = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={tilesClasses}>
+          <div className={FeaturesTeamInfo}>
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
@@ -197,7 +197,7 @@ const FeaturesTiles = ({
   );
 }
 
-FeaturesTiles.propTypes = propTypes;
-FeaturesTiles.defaultProps = defaultProps;
+FeaturesTeamInfo.propTypes = propTypes;
+FeaturesTeamInfo.defaultProps = defaultProps;
 
-export default FeaturesTiles;
+export default FeaturesTeamInfo;

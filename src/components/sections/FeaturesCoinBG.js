@@ -5,56 +5,58 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
 const propTypes = {
-  ...SectionSplitProps.types
-}
-
+    ...SectionSplitProps.types
+  }
+  
 const defaultProps = {
-  ...SectionSplitProps.defaults
+...SectionSplitProps.defaults
 }
 
-const FeaturesSplit = ({
-  className,
-  topOuterDivider,
-  bottomOuterDivider,
-  topDivider,
-  bottomDivider,
-  hasBgColor,
-  invertColor,
-  invertMobile,
-  invertDesktop,
-  alignTop,
-  imageFill,
-  ...props
+const FeaturesCoinBG = ({
+    className,
+    topOuterDivider,
+    bottomOuterDivider,
+    topDivider,
+    bottomDivider,
+    hasBgColor,
+    invertColor,
+    invertMobile,
+    invertDesktop,
+    alignTop,
+    imageFill,
+    ...props
 }) => {
 
-  const outerClasses = classNames(
-    'features-split section',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
-    className
-  );
+    
+const outerClasses = classNames(
+'features-split section',
+topOuterDivider && 'has-top-divider',
+bottomOuterDivider && 'has-bottom-divider',
+hasBgColor && 'has-bg-color',
+invertColor && 'invert-color',
+className
+);
 
-  const innerClasses = classNames(
-    'features-split-inner section-inner',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider'
-  );
+const innerClasses = classNames(
+'features-split-inner section-inner',
+topDivider && 'has-top-divider',
+bottomDivider && 'has-bottom-divider'
+);
 
-  const splitClasses = classNames(
-    'split-wrap',
-    invertMobile && 'invert-mobile',
-    invertDesktop && 'invert-desktop',
-    alignTop && 'align-top'
-  );
+const CoinBGClasses = classNames(
+'split-wrap',
+invertMobile && 'invert-mobile',
+invertDesktop && 'invert-desktop',
+alignTop && 'align-top'
+);
 
-  const sectionHeader = {
-    title: 'Features',
-    paragraph: 'The Features....'
-  };
+const sectionHeader = {
+title: 'Coin Background',
+paragraph: 'Here is the background of DeadCoin'
+};
 
-  return (
+
+return (
     <section
       {...props}
       className={outerClasses}
@@ -62,7 +64,7 @@ const FeaturesSplit = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={splitClasses}>
+          <div className={CoinBGClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -149,7 +151,16 @@ const FeaturesSplit = ({
   );
 }
 
-FeaturesSplit.propTypes = propTypes;
-FeaturesSplit.defaultProps = defaultProps;
+FeaturesCoinBG.propTypes = propTypes;
+FeaturesCoinBG.defaultProps = defaultProps;
 
-export default FeaturesSplit;
+export default FeaturesCoinBG;
+
+
+
+
+
+
+
+
+

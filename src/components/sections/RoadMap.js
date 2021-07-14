@@ -12,7 +12,7 @@ const defaultProps = {
   ...SectionSplitProps.defaults
 }
 
-const FeaturesSplit = ({
+const RoadMap = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -42,7 +42,7 @@ const FeaturesSplit = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const splitClasses = classNames(
+  const RoadMap = classNames(
     'split-wrap',
     invertMobile && 'invert-mobile',
     invertDesktop && 'invert-desktop',
@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Features',
-    paragraph: 'The Features....'
+    title: 'Road Map',
+    paragraph: 'The road map....'
   };
 
   return (
@@ -62,7 +62,7 @@ const FeaturesSplit = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={splitClasses}>
+          <div className={RoadMap}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -149,7 +149,7 @@ const FeaturesSplit = ({
   );
 }
 
-FeaturesSplit.propTypes = propTypes;
-FeaturesSplit.defaultProps = defaultProps;
+RoadMap.propTypes = propTypes;
+RoadMap.defaultProps = defaultProps;
 
-export default FeaturesSplit;
+export default RoadMap;
