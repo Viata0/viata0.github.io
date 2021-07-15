@@ -41,6 +41,7 @@ $palette: (
 // Base typography: color
 $color: (
 	//new add theme color
+	themeColor:				get-color(themeColor, 3),
 	themeColor-bg: 			get-color(themeColor, 1),
 	themeColor-block:		get-color(themeColor, 2),
 	themeColor-text:		get-color(themeColor, 3),
@@ -74,15 +75,15 @@ $border--color: (
 // Icons: fill color
 $icon--color: (
 	hamburger:				get-color(light, 2),			// hamburger icon
-	accordion:				get-color(primary, 1),			// accordion icon
-	social: 				get-color(primary, 1),			// social icons
-	social-hover: 			get-color(primary, 2),			// social icons (:hover)
+	accordion:				get-color(themeColor, 3),			// accordion icon
+	social: 				get-color(themeColor, 3),			// social icons
+	social-hover: 			get-color(themeColor, 4),			// social icons (:hover)
 	modal:					get-color(light, 3),			// modal icon
 	modal-hover:			get-color(light, 2),			// modal icon (:hover)
-    news-more:			    get-color(primary, 2),		// news - read more link arrow    
+    news-more:			    get-color(themeColor, 4),		// news - read more link arrow    
 	// ↓ Inverted colors
 	hamburger-inverse:		get-color(dark, 2),				// hamburger icon
-	accordion-inverse:		get-color(primary, 1),			// accordion icon
+	accordion-inverse:		get-color(themeColor, 3),			// accordion icon
 	social-inverse: 		null,							// social icons
 	social-hover-inverse: 	null							// social icons (:hover)
 );

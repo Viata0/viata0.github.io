@@ -71,7 +71,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://github.com/Viata0/viata0.github.io.git">
+                  <Button tag="a" color="themeColor" wideMobile href="https://github.com/Viata0/viata0.github.io.git">
                     Get started
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/Viata0/viata0.github.io.git">

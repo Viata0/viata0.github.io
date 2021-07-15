@@ -16,15 +16,15 @@ $button--color: (
 
 // Buttons: background color
 $button--bg: (
-	button-light: 			get-color(light, 1),
-	button-light-hover: 	darken(get-color(light, 1), 5%),
-	button-dark: 			get-color(dark, 2),
-	button-dark-hover: 		lighten(get-color(dark, 2), 2%),
-	button-primary: 		get-color(primary, 1),
-	button-primary-hover: 	lighten(get-color(primary, 1), 2%),
-	button-secondary: 		get-color(secondary, 1),
-	button-secondary-hover:	lighten(get-color(secondary, 1), 2%),
-	button-disabled: 		get-color(light, 3)
+	button-light: 			get-color(themeColor, 2),
+	button-light-hover: 	darken(get-color(themeColor, 1), 5%),
+	button-dark: 			get-color(themeColor, 4),
+	button-dark-hover: 		lighten(get-color(themeColor, 4), 2%),
+	button-primary: 		get-color(themeColor, 3),
+	button-primary-hover: 	lighten(get-color(themeColor, 3), 2%),
+	button-secondary: 		get-color(themeColor, 3),
+	button-secondary-hover:	lighten(get-color(themeColor, 3), 2%),
+	button-disabled: 		get-color(themeColor, 1)
 );
 
 // Buttons: border color
@@ -79,11 +79,11 @@ $form--bg: (
 	input: 							get-color(light, 1),
 	input-focus: 					null,
 	input-disabled: 				get-color(dark, 3),
-	check-radio-checked: 			get-color(primary, 1),
+	check-radio-checked: 			get-color(themeColor, 3),
 	switch:							get-color(dark, 3),
-    switch-checked:					get-color(primary, 1),
+    switch-checked:					get-color(themeColor, 3),
     range-track:                    get-color(light, 2),
-    range-thumb:                    get-color(primary, 1),    
+    range-thumb:                    get-color(themeColor, 3),    
 	// ↓ Inverted colors
 	input-inverse: 					null,
 	input-focus-inverse: 			null,
@@ -99,12 +99,12 @@ $form--bg: (
 $form--border: (
 	input: 						get-color(dark, 1),
 	input-hover: 				get-color(light, 3),
-	input-focus: 				get-color(primary, 1),
+	input-focus: 				get-color(themeColor, 3),
 	input-disabled: 			get-color(dark, 2),
 	// ↓ Inverted colors
 	input-inverse: 				darken(get-color(light, 1), 4%),
 	input-hover-inverse: 		null,
-	input-focus-inverse: 		get-color(primary, 1),
+	input-focus-inverse: 		get-color(themeColor, 3),
 	input-disabled-inverse:		null
 );
 
