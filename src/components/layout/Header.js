@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import ButtonGroup from '../elements/ButtonGroup';
+import Button from '../elements/Button';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -112,7 +114,14 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      
+                      <Link to="../../Document.pdf" onClick={closeMenu}>
+                        <ButtonGroup>
+                          <Button tag="a" color="themeColor" wideMobile href="../../Document.pdf">
+                            Documentation
+                          </Button>
+                        </ButtonGroup>
+                      </Link>
                     </li>
                   </ul>
                   {!hideSignin &&
