@@ -7,11 +7,11 @@ $button-form--group-padding: 	12px;		// padding separating input from button in 
 
 // Buttons: text color
 $button--color: (
-	button-light: 		get-color(dark, 2),
+	button-light: 		get-color(themeColor, 3),
 	button-dark: 		get-color(light, 1),
 	button-primary: 	get-color(light, 1),
 	button-secondary:	get-color(light, 1),
-	button-disabled: 	get-color(dark, 3)
+	button-disabled: 	get-color(themeColor, 3)
 );
 
 // Buttons: background color
@@ -63,24 +63,24 @@ $button-loading--thickness:		2px;		// button loading spinner, stroke width (.but
 
 // Forms: color
 $form--color: (
-	input: 						get-color(dark, 1),
+	input: 						get-color(themeColor, 4),
 	input-placeholder:		 	get-color(light, 2),
 	label: 						get-color(light, 3),
     check-radio: 				get-color(light, 2),
 	// ↓ Inverted colors
-	input-inverse: 				get-color(dark, 3),
+	input-inverse: 				get-color(themeColor, 3),
 	input-placeholder-inverse:	null,
-	label-inverse: 				get-color(dark, 3),
-    check-radio-inverse: 		get-color(dark, 3) 
+	label-inverse: 				get-color(themeColor, 3),
+    check-radio-inverse: 		get-color(themeColor, 3) 
 );
 
 // Forms: background color
 $form--bg: (
 	input: 							get-color(light, 1),
 	input-focus: 					null,
-	input-disabled: 				get-color(dark, 3),
+	input-disabled: 				get-color(themeColor, 3),
 	check-radio-checked: 			get-color(themeColor, 3),
-	switch:							get-color(dark, 3),
+	switch:							get-color(themeColor, 3),
     switch-checked:					get-color(themeColor, 3),
     range-track:                    get-color(light, 2),
     range-thumb:                    get-color(themeColor, 3),    
@@ -97,10 +97,10 @@ $form--bg: (
 
 // Forms: border color
 $form--border: (
-	input: 						get-color(dark, 1),
+	input: 						get-color(themeColor, 4),
 	input-hover: 				get-color(light, 3),
 	input-focus: 				get-color(themeColor, 3),
-	input-disabled: 			get-color(dark, 2),
+	input-disabled: 			get-color(themeColor, 3),
 	// ↓ Inverted colors
 	input-inverse: 				darken(get-color(light, 1), 4%),
 	input-hover-inverse: 		null,
@@ -113,7 +113,7 @@ $form--icon: (
     select-arrow:			get-color(light, 1),
     range:                  get-color(light, 1),
 	// ↓ Inverted colors
-    select-arrow-inverse:	get-color(dark, 3),
+    select-arrow-inverse:	get-color(themeColor, 3),
     range-inverse:          get-color(light, 1)
 );
 

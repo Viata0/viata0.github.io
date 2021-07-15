@@ -59,16 +59,16 @@ $color: (
 	warning:				get-color(alert, warning),
 	success:				get-color(alert, success),
 	// ↓ Inverted colors
-	heading-inverse:		get-color(dark, 1),
+	heading-inverse:		get-color(themeColor, 4),
 	base-inverse:			get-color(light, 3),
-	high-contrast-inverse: 	get-color(dark, 1),
-	mid-contrast-inverse: 	get-color(dark, 2),
+	high-contrast-inverse: 	get-color(themeColor, 4),
+	mid-contrast-inverse: 	get-color(themeColor, 3),
 	low-contrast-inverse: 	get-color(light, 3)
 );
 
 // Borders and dividers: color
 $border--color: (
-	divider:			get-color(dark, 2),
+	divider:			get-color(themeColor, 3),
 	divider-inverse:	get-color(light, 1)
 );
 
@@ -82,7 +82,7 @@ $icon--color: (
 	modal-hover:			get-color(light, 2),			// modal icon (:hover)
     news-more:			    get-color(themeColor, 4),		// news - read more link arrow    
 	// ↓ Inverted colors
-	hamburger-inverse:		get-color(dark, 2),				// hamburger icon
+	hamburger-inverse:		get-color(themeColor, 3),				// hamburger icon
 	accordion-inverse:		get-color(themeColor, 3),			// accordion icon
 	social-inverse: 		null,							// social icons
 	social-hover-inverse: 	null							// social icons (:hover)
@@ -91,11 +91,11 @@ $icon--color: (
 // Misc elements: background color
 $bg--color: (
 	body: 			get-color(themeColor, 1),
-	body-shadow:	0 20px 48px rgba(get-color(dark, 1), .8),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
-	body-outer:		lighten(get-color(dark, 1), 2%),			// outer bg color when a boxed layout is used
+	body-shadow:	0 20px 48px rgba(get-color(themeColor, 4), .8),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
+	body-outer:		lighten(get-color(themeColor, 4), 2%),			// outer bg color when a boxed layout is used
 	bg-color: 		lighten(get-color(light, 1), 9%),			// .has-bg-color helper class
-	shadow: 		0 24px 64px rgba(get-color(dark, 1), .64),	// .has-shadow helper class
-	code: 			darken(get-color(dark, 1), 3%),
-	code-inverse:	darken(get-color(dark, 1), 3%),
-	check-checked-inverse:	darken(get-color(dark, 1), 3%)
+	shadow: 		0 24px 64px rgba(get-color(themeColor, 4), .64),	// .has-shadow helper class
+	code: 			darken(get-color(themeColor, 4), 3%),
+	code-inverse:	darken(get-color(themeColor, 4), 3%),
+	check-checked-inverse:	darken(get-color(themeColor, 4), 3%)
 );

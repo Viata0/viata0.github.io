@@ -74,7 +74,7 @@ const Hero = ({
                   <Button tag="a" color="themeColor" wideMobile href="https://github.com/Viata0/viata0.github.io.git">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/Viata0/viata0.github.io.git">
+                  <Button tag="a" color="themeColor" wideMobile href="https://github.com/Viata0/viata0.github.io.git">
                     View on Github
                     </Button>
                 </ButtonGroup>

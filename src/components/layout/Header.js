@@ -114,14 +114,13 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      
-                      <Link to="../../Document.pdf" onClick={closeMenu}>
-                        <ButtonGroup>
-                          <Button tag="a" color="themeColor" wideMobile href="../../Document.pdf">
-                            Documentation
-                          </Button>
-                        </ButtonGroup>
+                      <Link to="https://github.com/Viata0/viata0.github.io/blob/main/Document.pdf" target='_blank' onClick={closeMenu}> <a href='https://github.com/Viata0/viata0.github.io/blob/main/Document.pdf' target='_blank' rel='noopener noreferrer'>White Paper</a>
                       </Link>
+                        {/* <ButtonGroup>
+                          <Button tag="a" color="#fbfcff" wideMobile href="https://github.com/Viata0/viata0.github.io/blob/main/Document.pdf">
+                            White Paper
+                          </Button>
+                        </ButtonGroup> */}
                     </li>
                   </ul>
                   {!hideSignin &&
