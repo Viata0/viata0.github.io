@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'The Community',
-    paragraph: 'The Community we would like to build is ...'
+    title: 'Features',
+    paragraph: '8 fantastic features for achieving excellent user experience'
   };
 
   return (
@@ -71,10 +71,23 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Blockchain Graveyard
                     </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  <p className="m-0 text-sm left-content">
+                    <ul>
+                      <li>
+                        non-fungible physical GRAVE
+                      </li>
+                      <li>
+                        environmentally
+                      </li>
+                      <li>
+                        space-saving
+                      </li>
+                      <li>
+                        keep unique value through NFT digital signatures on the blockchain
+                      </li>
+                    </ul>
                     </p>
                 </div>
               </div>
@@ -93,10 +106,20 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Users Verification
                     </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  <p className="m-0 text-sm left-content">
+                    <ul>
+                      <li>
+                        Identify by Blue Check
+                      </li>
+                      <li>
+                        Check KYC and death cert
+                      </li>
+                      <li>
+                        Aims to verify by AI
+                      </li>
+                    </ul>
                     </p>
                 </div>
               </div>
@@ -115,54 +138,23 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Ancestors Worshipping System
                     </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  <p className="m-0 text-sm left-content">
+                    <ul>
+                      <li>
+                        Provide digital offerings
+                      </li>
+                      <li>
+                        Allow donations to the deceases and their families through Deathcoin
+                      </li>
+                      <li>
+                        Shows records of worshippers, offerings and donations
+                      </li>
+                      <li>
+                        Opportunity to view the memory of the deceased
+                      </li>
+                    </ul>
                     </p>
                 </div>
               </div>
@@ -173,22 +165,142 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
+                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      alt="Features tile icon 03"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    NFT Memory Collections
                     </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  <p className="m-0 text-sm left-content">
+                    <ul>
+                      <li>
+                        Allows the deceased with NFT memory collections on multiple blockchains
+                      </li>
+                      <li>
+                        Allow worshippers to purchase those memories in one place
+                      </li>
+                    </ul>
                     </p>
                 </div>
               </div>
             </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      alt="Features tile icon 03"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                  Reward System
+                    </h4>
+                  <p className="m-0 text-sm left-content">
+                    <ul>
+                      <li>
+                        Earn Death Coin daily if user lists verified NFT graves on DeGrave.io for worshipping
+                      </li>
+                      <li>
+                        Promote DeGrave.io or $DTC to earn token
+                      </li>
+                      <li>
+                        staking rewards for Deathcoin holder.
+                      </li>
+                    </ul>
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      alt="Features tile icon 03"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Multi Chain Support
+                    </h4>
+                  <p className="m-0 text-sm left-content">
+                    <ul>
+                      <li>
+                        Open approach to all blockchains and compatibility
+                      </li>
+                      <li>
+                        A cross-compatible e-marketplace
+                      </li>
+                    </ul>
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      alt="Features tile icon 03"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Users First Approach
+                    </h4>
+                  <p className="m-0 text-sm left-content">
+                    <ul>
+                      <li>
+                        Take user as the first place
+                      </li>
+                      <li>
+                        Focus on user experiences and comments
+                      </li>
+                    </ul>
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      alt="Features tile icon 03"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Cross-Platform Perpetual Royalties
+                    </h4>
+                  <p className="m-0 text-sm left-content">
+                    DeGrave.io will initiate a research and development strategy to implement the ability for users to adopt cross-platform perpetual royalties.
+                    </p>
+                </div>
+              </div>
+            </div>
+
 
           </div>
         </div>

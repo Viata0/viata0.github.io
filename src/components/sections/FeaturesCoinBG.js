@@ -51,8 +51,8 @@ alignTop && 'align-top'
 );
 
 const sectionHeader = {
-title: 'Coin Background',
-paragraph: 'Here is the background of DeadCoin'
+title: 'Death Coin ?',
+paragraph: 'It\'s about the death, but will not dead'
 };
 
 
@@ -69,13 +69,13 @@ return (
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  What is Death Coin?
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Death Coin ($DTC) is one types of token belongs to native crypto currency that will be a BEP20 token on the Binance Smart Chain. $DTC is used primarily as a staking reward on DeGrave.io when creating NFT graves, purchasing digital offerings and making cryptocurrencies donations.
                   </p>
               </div>
               <div className={
@@ -85,7 +85,7 @@ return (
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/whatIsCoin.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -95,13 +95,13 @@ return (
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Why Death Coin?
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Death Coin can a bridge between target blockchain like Ethereum Blockchain to allow users ease of access to all functionally with the platform (DeGrave.io). $DTC ensures a fully decentralized model of governance. The Death Coin token provides additional benefits and enhances user engagement whilst being able to adopt the crypto currency for business activity. 
                   </p>
               </div>
               <div className={
@@ -111,39 +111,12 @@ return (
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/whycoin.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
               </div>
             </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
           </div>
         </div>
       </div>

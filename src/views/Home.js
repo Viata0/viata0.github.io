@@ -3,7 +3,6 @@ import React from 'react';
 import Hero from '../components/sections/Hero';
 import FeaturesCoinBG from '../components/sections/FeaturesCoinBG';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
-import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import FeaturesMarketPlace from '../components/sections/FeaturesMarketPlace';
 import FeaturesTeamInfo from '../components/sections/FeaturesTeamInfo';
@@ -18,7 +17,6 @@ const Home = () => {
       <FeaturesCoinBG invertMobile topDivider imageFill className="illustration-section-02" />
       <FeaturesMarketPlace topDivider />
       <FeaturesTiles topDivider/>
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial topDivider />
       <RoadMap topDivider />
       <FeaturesTeamInfo topDivider/>

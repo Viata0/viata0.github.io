@@ -45,7 +45,7 @@ const FeaturesMarketPlace = ({
 
   const sectionHeader = {
     title: 'Market Place',
-    paragraph: 'Here are the market places.'
+    paragraph: ''
   };
 
   return (
@@ -61,50 +61,36 @@ const FeaturesMarketPlace = ({
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                <span className="testimonial-item-name text-color-high">Trading on DeGrave.io</span>
+                  <span className="text-color-low">  </span>
+                  <span className="testimonial-item-link">
+                    <a href="#0"></a>
+                  </span>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
+                  <p className="text-sm mb-0">
+                    — $DTC is a role of token of the platform of DeGrave.io. It can be used to creating NFT graves, purchasing digital offerings and making cryptocurrencies donations and as a staking reward on DeGrave.io.
+                      </p>
+                  <br />
+                  <br />
+                  <br />
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
+                <span className="testimonial-item-name text-color-high">As real money</span>
+                  <span className="text-color-low">  </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0"></a>
                   </span>
                 </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
+                  <p className="text-sm mb-0">
+                    — A decentralized and community-driven interpersonal network chain will be build that promote users to use $DTC as a trading medium for goods, services and knowledge in real life, and eventually will be listed on a crypto currency exchange, allowing users to exchange $DTC for other legal currencies.
+                    </p>
                 </div>
               </div>
             </div>

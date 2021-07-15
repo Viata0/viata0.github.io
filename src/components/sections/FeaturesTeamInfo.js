@@ -45,7 +45,7 @@ const FeaturesTeamInfo = ({
 
   const sectionHeader = {
     title: 'Our Team',
-    paragraph: 'Why we connect...'
+    paragraph: ''
   };
 
   return (
@@ -69,12 +69,15 @@ const FeaturesTeamInfo = ({
                       height={64} />
                   </div>
                 </div>
+                <span className="testimonial-item-link">
+                  Co-Founder & CEO
+                </span>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Raphael Lau
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    With a strong business development background and a key focus on new trends in the market, Raphael co-founded DeGrave.io. He believes what he is doing for blockchain technology currently will revolutionize and redefine the traditional business.
                     </p>
                 </div>
               </div>
@@ -91,12 +94,15 @@ const FeaturesTeamInfo = ({
                       height={64} />
                   </div>
                 </div>
+                <span className="testimonial-item-link">
+                  Co-Founder & COO
+                </span>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Wynne Poon
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Waiting to fill the content
                     </p>
                 </div>
               </div>
@@ -113,12 +119,15 @@ const FeaturesTeamInfo = ({
                       height={64} />
                   </div>
                 </div>
+                <span className="testimonial-item-link">
+                  Co-Founder & COO
+                </span>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Vincent Wong
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    A blockchain technology enthusiast and software engineer with experience in leading and managing multiple startups R&D team development.  Currently, DeGrave.io development team led.
                     </p>
                 </div>
               </div>
@@ -135,12 +144,15 @@ const FeaturesTeamInfo = ({
                       height={64} />
                   </div>
                 </div>
+                <span className="testimonial-item-link">
+                  CCO
+                </span>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Curtis AuYeung
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Waiting to fill the content.
                     </p>
                 </div>
               </div>
@@ -157,12 +169,15 @@ const FeaturesTeamInfo = ({
                       height={64} />
                   </div>
                 </div>
+                <span className="testimonial-item-link">
+                  CIO
+                </span>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Benedict Casino
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Waiting to fill the content.
                     </p>
                 </div>
               </div>
@@ -179,12 +194,15 @@ const FeaturesTeamInfo = ({
                       height={64} />
                   </div>
                 </div>
+                <span className="testimonial-item-link">
+                  CFO
+                </span>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Kenny Wong
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Waiting to fill the content.
                     </p>
                 </div>
               </div>
