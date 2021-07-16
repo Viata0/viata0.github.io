@@ -19,7 +19,7 @@ $link--color: (
 	// ↓ Inverted colors
 	link-inverse: 						get-color(light, 3),
 	link-hover-inverse: 				null,
-	header-link-inverse: 				get-color(dark, 3),
+	header-link-inverse: 				get-color(themeColor, 3),
 	header-link-hover-inverse:			get-color(themeColor, 3),
 	footer-link-inverse: 				null,
 	footer-link-hover-inverse: 			null,

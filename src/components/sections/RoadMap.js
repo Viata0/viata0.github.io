@@ -51,7 +51,7 @@ const RoadMap = ({
 
   const sectionHeader = {
     title: 'Road Map',
-    paragraph: 'The road map....'
+    paragraph: 'We keep forward, for better world'
   };
 
   return (
@@ -63,6 +63,8 @@ const RoadMap = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={RoadMap}>
+
+            <div className="split-item"></div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -93,12 +95,14 @@ const RoadMap = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('../img/SVG/roadmapHaed.svg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
               </div>
             </div>
+
+            <div className="split-item"></div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -135,12 +139,14 @@ const RoadMap = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('../img/SVG/roadmapMid.svg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
               </div>
             </div>
+            
+            <div className="split-item"></div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -177,12 +183,14 @@ const RoadMap = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('../img/SVG/roadmapMid.svg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
               </div>
             </div>
+
+            <div className="split-item"></div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
@@ -216,13 +224,15 @@ const RoadMap = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('../img/SVG/roadmapMid.svg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
               </div>
             </div>
 
+            <div className="split-item"></div>
+            
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
@@ -252,7 +262,7 @@ const RoadMap = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('../img/SVG/roadmapTail.svg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />

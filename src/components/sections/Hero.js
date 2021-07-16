@@ -83,18 +83,18 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <Image
-              className="has-shadow"
-              src={require('./../../assets/images/coin.jpg')}
+              // className="has-shadow"
+              src={require('../img/SVG/資產 6.svg')}
               alt="Hero"
-              width={896}
-              height={504} />
+              width={600}
+              height={600} />
           </div>
-          <Modal
+          {/* <Modal
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
+            videoTag="iframe" /> */}
         </div>
       </div>
     </section>
