@@ -58,40 +58,7 @@ const FeaturesTiles = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Blockchain Graveyard
-                    </h4>
-                  <p className="m-0 text-sm left-content">
-                    <ul>
-                      <li>
-                        non-fungible physical GRAVE
-                      </li>
-                      <li>
-                        environmentally
-                      </li>
-                      <li>
-                        space-saving
-                      </li>
-                      <li>
-                        keep unique value through NFT digital signatures on the blockchain
-                      </li>
-                    </ul>
-                    </p>
-                </div>
-              </div>
-            </div>
+           
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
@@ -221,85 +188,11 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Multi Chain Support
-                    </h4>
-                  <p className="m-0 text-sm left-content">
-                    <ul>
-                      <li>
-                        Open approach to all blockchains and compatibility
-                      </li>
-                      <li>
-                        A cross-compatible e-marketplace
-                      </li>
-                    </ul>
-                    </p>
-                </div>
-              </div>
-            </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Users First Approach
-                    </h4>
-                  <p className="m-0 text-sm left-content">
-                    <ul>
-                      <li>
-                        Take user as the first place
-                      </li>
-                      <li>
-                        Focus on user experiences and comments
-                      </li>
-                    </ul>
-                    </p>
-                </div>
-              </div>
-            </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Cross-Platform Perpetual Royalties
-                    </h4>
-                  <p className="m-0 text-sm left-content">
-                    DeGrave.io will initiate a research and development strategy to implement the ability for users to adopt cross-platform perpetual royalties.
-                    </p>
-                </div>
-              </div>
-            </div>
+
+
+
 
 
           </div>
