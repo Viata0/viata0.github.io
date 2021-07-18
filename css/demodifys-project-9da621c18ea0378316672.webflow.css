@@ -1,3 +1,5 @@
+
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -917,14 +919,14 @@
   padding-bottom: 64px;
   border-left-style: solid;
   border-left-width: 1px;
-  border-left-color: #e6e6e6;
+  border-left-color: #4c7fa9;
   border-right-style: solid;
   border-right-width: 1px;
-  border-right-color: #e6e6e6;
+  border-right-color: #4c7fa9;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-bottom-color: #e6e6e6;
-  background-color: #fff;
+  border-bottom-color: #4c7fa9;
+  background-color: #4c7fa9;
 }
 
 .w-commerce-commercecheckoutpaymentinfowrapper {
@@ -2124,7 +2126,7 @@
 
 body {
   font-family: Poppins, sans-serif;
-  color: #e0dff1;
+  color: #4c7fa9;
   font-size: 18px;
   line-height: 1.778em;
 }
@@ -2132,7 +2134,7 @@ body {
 h1 {
   margin-top: 0px;
   margin-bottom: 22px;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 66px;
   line-height: 1.212em;
   font-weight: 700;
@@ -2142,7 +2144,7 @@ h1 {
 h2 {
   margin-top: 0px;
   margin-bottom: 16px;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 42px;
   line-height: 1.31em;
   font-weight: 700;
@@ -2152,7 +2154,7 @@ h2 {
 h3 {
   margin-top: 0px;
   margin-bottom: 12px;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 28px;
   line-height: 1.071em;
   font-weight: 700;
@@ -2162,7 +2164,7 @@ h3 {
 h4 {
   margin-top: 0px;
   margin-bottom: 16px;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 22px;
   line-height: 1.409em;
   font-weight: 700;
@@ -2172,7 +2174,7 @@ h4 {
 h5 {
   margin-top: 0px;
   margin-bottom: 16px;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 18px;
   line-height: 1.667em;
   font-weight: 700;
@@ -2182,7 +2184,7 @@ h5 {
 h6 {
   margin-top: 0px;
   margin-bottom: 10px;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 16px;
   line-height: 1.25em;
   font-weight: 700;
@@ -2195,12 +2197,12 @@ p {
 a {
   -webkit-transition: color 350ms ease;
   transition: color 350ms ease;
-  color: #fff;
+  color: #4c7fa9;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #6639e4;
+  color: #55b9dd;
 }
 
 ul {
@@ -2295,11 +2297,11 @@ figcaption {
 }
 
 .bg-primary-1 {
-  background-color: #6639e4;
+  background-color: #fbfcff;
 }
 
 .bg-neutral-1000 {
-  background-color: #131128;
+  background-color: #fbfcff;
 }
 
 .bg-neutral-900 {
@@ -2390,7 +2392,7 @@ figcaption {
   padding: 100px 68px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
-  background-color: #6639e4;
+  background-color: #fbfcff;
 }
 
 .sidebar-navigation {
@@ -2591,7 +2593,7 @@ figcaption {
 .button-primary {
   padding: 27px 32px;
   border-radius: 80px;
-  background-color: #6639e4;
+  background-color: #55b9dd;
   -webkit-transition: background-color 350ms ease, -webkit-transform 350ms ease;
   transition: background-color 350ms ease, -webkit-transform 350ms ease;
   transition: transform 350ms ease, background-color 350ms ease;
@@ -2642,7 +2644,7 @@ figcaption {
 
 .button-primary.button-white {
   background-color: #fff;
-  color: #6639e4;
+  color: #55b9dd;
 }
 
 .button-primary.button-white.card-pricing-buy-now {
@@ -2655,7 +2657,7 @@ figcaption {
   transition: color 350ms ease, background-color 350ms ease, -webkit-transform 350ms ease;
   transition: color 350ms ease, transform 350ms ease, background-color 350ms ease;
   transition: color 350ms ease, transform 350ms ease, background-color 350ms ease, -webkit-transform 350ms ease;
-  color: #6639e4;
+  color: #55b9dd;
 }
 
 .button-primary.white:hover {
@@ -2765,7 +2767,7 @@ figcaption {
 }
 
 .button-secondary:hover {
-  background-color: #6639e4;
+  background-color: #55b9dd;
   -webkit-transform: scale(0.95);
   -ms-transform: scale(0.95);
   transform: scale(0.95);
@@ -2920,7 +2922,7 @@ figcaption {
 .nav-link {
   -webkit-transition: color 350ms ease;
   transition: color 350ms ease;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 14px;
   line-height: 1.143em;
   font-weight: 500;
@@ -2930,7 +2932,7 @@ figcaption {
 }
 
 .nav-link:hover {
-  color: #6639e4;
+  color: #55b9dd;
 }
 
 .nav-link.w--current {
@@ -2942,7 +2944,7 @@ figcaption {
 }
 
 .nav-link.dropdown.w--open {
-  color: #6639e4;
+  color: #55b9dd;
 }
 
 .nav-menu {
@@ -2955,7 +2957,7 @@ figcaption {
 .footer {
   padding-top: 56px;
   padding-bottom: 32px;
-  background-color: #282454;
+  background-color: #fbfcff;/* 666666666666666666 */
 }
 
 .footer-logo-container {
@@ -2972,7 +2974,7 @@ figcaption {
 }
 
 .footer-logo {
-  width: 140px;
+  width: 1000px;
 }
 
 .page-wrapper.overflow-hidden {
@@ -2999,7 +3001,7 @@ figcaption {
 .section.home-hero {
   padding-top: 153px;
   padding-bottom: 0px;
-  background-image: url('../images/glowing-triangle-neon-digital-art.jpg');
+  background-image: url('../images/bg.jpg');/* 666666666666666 */
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -3783,7 +3785,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #6639e4;
+  background-color: #55b9dd;
 }
 
 .image-wrapper.spec-icon {
@@ -3837,7 +3839,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1000px;
-  background-color: #6639e4;
+  background-color: #55b9dd;
 }
 
 .image-wrapper.drives-icon {
@@ -4261,7 +4263,7 @@ figcaption {
 .card {
   overflow: hidden;
   border-radius: 40px;
-  background-color: #282454;
+  background-color: #55b9dd;
 }
 
 .card.section-about {
@@ -4281,7 +4283,7 @@ figcaption {
   padding-top: 68px;
   padding-right: 34px;
   padding-left: 34px;
-  background-color: #6639e4;
+  background-color: #55b9dd;
 }
 
 .card.testimonial {
@@ -4312,7 +4314,7 @@ figcaption {
 .card.cta-footer {
   max-width: 509px;
   padding: 49px 34px;
-  background-color: rgba(156, 151, 211, 0.2);
+  background-color: #a0d2e3;
 }
 
 .card.drives {
@@ -4921,7 +4923,7 @@ figcaption {
 .testimonial-name {
   margin-bottom: 6px;
   padding-left: 17px;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 25px;
   line-height: 1.125em;
   font-weight: 700;
@@ -5116,7 +5118,7 @@ figcaption {
 }
 
 .footer-link {
-  color: #e0dff1;
+  color: #4c7fa9;
   font-size: 14px;
   line-height: 1.143em;
   letter-spacing: 0.1em;
@@ -5126,7 +5128,7 @@ figcaption {
 }
 
 .footer-link:hover {
-  color: #6639e4;
+  color: #55b9dd;
 }
 
 .footer-link.w--current {
@@ -5254,7 +5256,7 @@ figcaption {
 }
 
 .footer-social-media-link:hover {
-  background-color: #6639e4;
+  background-color: #55b9dd;
   -webkit-transform: translate(0px, -4px);
   -ms-transform: translate(0px, -4px);
   transform: translate(0px, -4px);
@@ -5321,7 +5323,7 @@ figcaption {
 }
 
 .cart-quantity:hover {
-  color: #cccfda;
+  color: #55b9dd;
 }
 
 .delete-class {
@@ -5400,7 +5402,7 @@ figcaption {
 }
 
 .cart-button:hover {
-  color: #cccfda;
+  color: #55b9dd;
 }
 
 .cart-item-price {
@@ -5648,7 +5650,7 @@ figcaption {
 }
 
 .select-wrapper:hover {
-  border-color: #7a73c4;
+  border-color: #55b9dd;
 }
 
 .select-wrapper::-webkit-input-placeholder {
@@ -5674,7 +5676,7 @@ figcaption {
 }
 
 .select-wrapper.card-pricing:hover {
-  border-color: #7a73c4;
+  border-color: #55b9dd;
 }
 
 .select-wrapper.pricing-plan-card {
@@ -5687,7 +5689,7 @@ figcaption {
 }
 
 .select-wrapper.pricing-plan-card:hover {
-  border-bottom-color: #6639e4;
+  border-bottom-color: #55b9dd;
 }
 
 .select-wrapper.checkout {
@@ -5714,7 +5716,7 @@ figcaption {
 }
 
 .text-area:hover {
-  border-color: #7a73c4;
+  border-color: #55b9dd;
 }
 
 .text-area:focus {
@@ -5783,7 +5785,7 @@ figcaption {
 }
 
 .social-media-link:hover {
-  background-color: #6639e4;
+  background-color: #55b9dd;
   -webkit-transform: translate(0px, -4px);
   -ms-transform: translate(0px, -4px);
   transform: translate(0px, -4px);
@@ -5957,7 +5959,7 @@ figcaption {
 }
 
 .card-team-social-media-link:hover {
-  background-color: #6639e4;
+  background-color: #55b9dd;
   -webkit-transform: translate(0px, -4px);
   -ms-transform: translate(0px, -4px);
   transform: translate(0px, -4px);
@@ -5979,7 +5981,7 @@ figcaption {
 }
 
 .card-team-link:hover {
-  color: #e0dff1;
+  color: #55b9dd;
 }
 
 .timeline-about-wrapper {
@@ -5995,12 +5997,12 @@ figcaption {
   min-width: 24px;
   margin-right: 54px;
   border-radius: 1000px;
-  background-color: #fff;
+  background-color: #4c7fa9;
 }
 
 .timeline-year {
   margin-bottom: 24px;
-  color: #fff;
+  color: #4c7fa9;
   font-size: 28px;
   line-height: 1.071em;
   font-weight: 700;
@@ -6463,7 +6465,7 @@ figcaption {
 }
 
 .blog-post-about-author-link:hover {
-  background-color: #6639e4;
+  background-color: #55b9dd;
   -webkit-transform: translate(0px, -4px);
   -ms-transform: translate(0px, -4px);
   transform: translate(0px, -4px);
@@ -7105,7 +7107,7 @@ figcaption {
 }
 
 .dropdown-link:hover {
-  color: #6639e4;
+  color: #55b9dd;
 }
 
 .dropdown-link.w--current {
@@ -7388,7 +7390,7 @@ figcaption {
 }
 
 .create__feature-heading {
-  color: #f1f1f1;
+  color: #4c7fa9;
   font-size: 2vw;
   line-height: 1.2em;
   font-weight: 600;
@@ -7397,14 +7399,14 @@ figcaption {
 
 .create__text {
   margin-right: 0.4vw;
-  color: #f1f1f1;
+  color: #4c7fa9;
   font-size: 3vw;
   line-height: 1.5em;
   font-weight: 700;
 }
 
 .create__text.payment__text--blue {
-  color: #6639e4;
+  color: #55b9dd;
 }
 
 .image-109 {
@@ -8037,7 +8039,7 @@ figcaption {
 
 .create__feature-text-2 {
   margin-top: 1.2vw;
-  color: #f1f1f1;
+  color: #4c7fa9;
   font-size: 0.9vw;
   line-height: 1.6em;
   font-weight: 500;
@@ -8176,7 +8178,7 @@ figcaption {
 }
 
 .cta__button:hover {
-  background-color: #f2f2f2;
+  background-color: #55b9dd;
 }
 
 .cta__disclaimer {
@@ -8564,9 +8566,10 @@ figcaption {
   }
 }
 
+
 @media screen and (min-width: 1440px) {
   .bg-neutral-1000 {
-    background-color: #131128;
+    background-color: #fbfcff;/* 66666666666666666666 */
   }
 
   .container-default {
@@ -8594,7 +8597,7 @@ figcaption {
 
   .section.home-hero {
     background-color: #282454;
-    background-image: url('../images/glowing-triangle-neon-digital-art.jpg');
+    background-image: url('../images/bg.svg');
     background-size: cover;
     background-attachment: fixed;
     opacity: 1;
@@ -10339,7 +10342,7 @@ figcaption {
   }
 
   .menu-button:hover {
-    background-color: #282454;
+    background-color: #55b9dd;
     -webkit-transform: scale(0.95);
     -ms-transform: scale(0.95);
     transform: scale(0.95);
@@ -12421,7 +12424,7 @@ figcaption {
   }
 
   .button-primary.newsletter:hover {
-    background-color: #131128;
+    background-color: #55b9dd;
   }
 
   .button-primary.checkout-icon {

@@ -50,7 +50,7 @@ NioApp = (function (NioApp, $, window) {
                                     return data['datasets'][0]['data'][tooltipItem['index']] + ' %';
                                 }
                             },
-                            backgroundColor: '#eff6ff',
+                            backgroundColor: '#fbfcff',
                             titleFontSize: 13,
                             titleFontColor: '#6783b8',
                             titleMarginBottom:10,
