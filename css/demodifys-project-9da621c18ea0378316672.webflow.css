@@ -3001,10 +3001,10 @@ figcaption {
 .section.home-hero {
   padding-top: 153px;
   padding-bottom: 0px;
-  background-image: url('../images/bg.jpg');/* 666666666666666 */
+  background-image: url('../images/bg.svg');/* 666666666666666 */
   background-position: 50% 50%;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -webkit-filter: saturate(165%);
   filter: saturate(165%);
 }
@@ -8588,7 +8588,7 @@ figcaption {
   }
 
   .licenses-hero {
-    background-color: #282454;
+    background-color: #a0d2e3;
   }
 
   .section.companies {
@@ -8596,7 +8596,7 @@ figcaption {
   }
 
   .section.home-hero {
-    background-color: #282454;
+    background-color: #a0d2e3;
     background-image: url('../images/bg.svg');
     background-size: cover;
     background-attachment: fixed;
@@ -10332,7 +10332,7 @@ figcaption {
     margin-left: 15px;
     padding: 0px;
     border-radius: 1000px;
-    background-color: #6639e4;
+    background-color: #55b9dd;
     -webkit-transition: background-color 350ms ease, -webkit-transform 350ms ease;
     transition: background-color 350ms ease, -webkit-transform 350ms ease;
     transition: transform 350ms ease, background-color 350ms ease;
@@ -10349,7 +10349,7 @@ figcaption {
   }
 
   .menu-button.w--open {
-    background-color: #6639e4;
+    background-color: #a0d2e3;
   }
 
   .menu-line-top {
