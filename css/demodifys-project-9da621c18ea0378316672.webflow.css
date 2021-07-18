@@ -5255,6 +5255,10 @@ figcaption {
   text-decoration: none;
 }
 
+#whiteText  {
+  color: #fbfcff;
+}
+
 .footer-social-media-link:hover {
   background-color: #55b9dd;
   -webkit-transform: translate(0px, -4px);
