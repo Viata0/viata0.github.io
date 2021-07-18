@@ -2299,9 +2299,9 @@ figcaption {
 .bg-primary-1 {
   background-color: #fbfcff;
 }
-
+/* 666666666666666666 */
 .bg-neutral-1000 {
-  background-color: #fbfcff;
+  background-color: #fbfcff; 
 }
 
 .bg-neutral-900 {
@@ -3032,6 +3032,7 @@ figcaption {
 }
 
 .section.testimonials {
+  background-color: #a0d2e3;
   margin-top: -114px;
   padding-top: 0px;
   padding-bottom: 76px;
