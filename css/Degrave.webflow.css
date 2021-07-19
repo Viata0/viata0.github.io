@@ -7572,7 +7572,7 @@ figcaption {
 }
 
 .features {
-  overflow: scroll;
+  overflow: visible;
   max-width: 1170px;
   margin: 0px auto 1px;
   padding: 0rem 20px;
@@ -7747,7 +7747,7 @@ figcaption {
 }
 
 .features-2 {
-  overflow: scroll;
+  overflow: visible;
   max-width: 1170px;
   margin: 0px auto 1px;
   padding: 0rem 20px;
@@ -7775,7 +7775,7 @@ figcaption {
 .grid-6-col {
   display: -ms-grid;
   display: grid;
-  overflow: scroll;
+  overflow: visible;
   min-width: 0px;
   float: none;
   -webkit-box-pack: stretch;
@@ -8856,7 +8856,7 @@ figcaption {
   }
 
   .split-content.timeline-right {
-    overflow: scroll;
+    overflow: visible;
   }
 
   .spec-wrapper.last {
@@ -8919,7 +8919,7 @@ figcaption {
   }
 
   .timeline-wrapper {
-    overflow: scroll;
+    overflow: visible;
     padding-top: 182px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
