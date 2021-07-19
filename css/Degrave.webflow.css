@@ -48,7 +48,17 @@ overflow: auto;
 }
 
 .fa-reddit {
-  background: #ff5700;
+  background: #ff5500;
+  color: white;
+}
+
+.fa-discord {
+  background: #3777d8;
+  color: white;
+}
+
+.fa-telegram {
+  background: #3777d8;
   color: white;
 }
 
@@ -3009,7 +3019,7 @@ figcaption {
 .footer {
   padding-top: 56px;
   padding-bottom: 32px;
-  background-color: #fbfcff;/* 666666666666666666 */
+  background-color: #a0d2e3;/* 666666666666666666 */
 }
 
 .footer-logo-container {
@@ -3826,9 +3836,9 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 68px;
-  height: 68px;
-  margin-bottom: 22px;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 5px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4367,7 +4377,7 @@ figcaption {
 .card.cta-footer {
   max-width: 509px;
   padding: 49px 34px;
-  background-color: #a0d2e3;
+  background-color: #fbfcff;
 }
 
 .card.drives {
