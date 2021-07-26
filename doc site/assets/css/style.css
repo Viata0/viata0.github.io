@@ -1190,7 +1190,7 @@ p.feature-para {
 }
 
 .doc-head-section.set-2-doc-head {
-  background: #563d7c !important;
+  background: #a0d2e3 !important;
 }
 
 .set-2-doc-head .upper-head {
@@ -1207,14 +1207,14 @@ p.feature-para {
 }
 
 .org-theme.bootstrap-color .set-2-doc-head .start-btn {
-  background: #9f7bd5;
+  background: #55b9dd;
   font-size: 0.85em;
   color: #fff;
 }
 
 .org-theme.bootstrap-color .set-2-doc-head .download-btn {
-  border: 1px solid #9f7bd5;
-  color: #ccb3f2;
+  border: 1px solid #55b9dd;
+  color: #4c7fa9;
 }
 
 
