@@ -1809,7 +1809,7 @@ footer.semantic-footer ul li a
 }
 .chat-box-body:after {
   content: "";
-
+  background-image:;
   opacity: 0.1;
   top: 0;
   left: 0;
