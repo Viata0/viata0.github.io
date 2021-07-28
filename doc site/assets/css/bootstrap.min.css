@@ -4090,14 +4090,28 @@ tbody.collapse.show {
 	}
 }
 
-@media (max-width:991.98px) {
+/* @media (max-width:991.98px) {
+	.navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid {
+		padding-right: 0;
+		padding-left: 0
+	}
+} */
+
+/* @media (max-width:992px) {
+	.navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid {
+		padding-right: 0;
+		padding-left: 0
+	}
+} */
+
+@media (max-width:10000px) {
 	.navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid {
 		padding-right: 0;
 		padding-left: 0
 	}
 }
 
-@media (min-width:992px) {
+@media (min-width:4000px) {
 	.navbar-expand-lg {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
