@@ -2667,6 +2667,7 @@ figcaption {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+
 }
 
 .button-primary:hover {
@@ -3487,6 +3488,8 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: 20px;
+  width: 3000px;
 }
 
 ._2-buttons-wrapper._404 {
@@ -11035,7 +11038,7 @@ figcaption {
   }
 
   .button-primary {
-    padding: 23px 28px;
+    padding: 23px 100px;
   }
 
   .button-primary.full-width.cart {
