@@ -11365,8 +11365,12 @@ html {
 .logo {
   display: none;
 }
+.blank {
+  height: 100vh;
+}
 
 @media (max-width: 992px) {
+  .blank,
   .video-container,
   .scroll-to-down {
     display: none;
