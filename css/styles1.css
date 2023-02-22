@@ -137,12 +137,21 @@ nav li:hover .sub-menu {
   border-radius: 25px;
   background-color: #2899ff;
   border: none;
-  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .btn-round:hover {
   background-color: #0071ed;
 }
+
+.bg-primary {
+  background-color: #2899ff !important;
+}
+
+.team-img{
+    padding-bottom: 40px;
+  }
 
 @media (max-width: 568px) {
   .header-container {
@@ -198,6 +207,14 @@ nav li:hover .sub-menu {
 
   .CTA {
     bottom: 130px;
+  }
+
+  .team-img{
+    width: 50%;
+    padding-bottom: 10px;
+  }
+  .awards-img{
+    width: 50%;
   }
 }
 
